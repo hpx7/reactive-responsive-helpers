@@ -14,6 +14,7 @@ Package.onUse(function (api) {
   api.versionsFrom(['METEOR@0.9.0', 'METEOR@1.0']);
   api.use('patrickleet:enquire@2.2.0_1');
   api.use('templating');
+  api.use('session');
   api.export('ResponsiveHelpers')
   api.addFiles([
     'src/deviceSize.js',
